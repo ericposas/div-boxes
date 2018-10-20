@@ -1,0 +1,39 @@
+html {
+  color: #fff; }
+
+body {
+  margin: auto; }
+
+p {
+  margin: 10px;
+  text-align: center;
+  column-count: 3; }
+
+.quad-box-container {
+  margin: auto;
+  display: block;
+  position: absolute;
+  width: 100%; }
+
+.box {
+  margin: auto;
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 8px;
+  width: 50%; }
+
+.quad-1 {
+  background-color: red; }
+
+.quad-2 {
+  left: 50%;
+  background-color: blue; }
+
+.quad-3 {
+  background-color: green; }
+
+.quad-4 {
+  left: 50%;
+  background-color: magenta; }
+
